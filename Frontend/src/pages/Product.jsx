@@ -16,7 +16,7 @@ const Product = () => {
   const fetchProductData = async () => {
 
     products.map((item) => {
-      if (item._id === parseInt(productId)) {
+      if (item._id === productId) {
         setProductData(item);
         setImage(item.image[0]);
       }
@@ -36,7 +36,7 @@ const Product = () => {
     if (products && products.length > 0) {
       fetchProductData();
     }
-  }, [productId, products])
+  }, [productId,products])
 
   return productData ? (
     <div className='border-y-2 border-gray-300 py-10 transition-opacity ease-in duration-500 mt-30 opacity-100'>
