@@ -1,0 +1,145 @@
+# ============================================
+# Environment Variables
+# ============================================
+.env
+*.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# ============================================
+# Dependencies & Package Management
+# ============================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# ============================================
+# Build Outputs
+# ============================================
+dist/
+dist-ssr/
+*.local
+build/
+out/
+
+# ============================================
+# Development & Temporary Files
+# ============================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+.idea_modules/
+*.sublime-workspace
+*.sublime-project
+
+# ============================================
+# Logs & Debug Files
+# ============================================
+logs/
+*.log
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.stat
+debug.log
+.nyc_output/
+coverage/
+.mocha_output/
+
+# ============================================
+# Editor & IDE Specific Files
+# ============================================
+.prettierignore
+.eslintcache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.editorconfig
+*.iml
+out/
+
+# ============================================
+# OS Specific Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.coverage
+.nyc_output
+coverage/
+*.lcov
+.jest_cache/
+*.test.js.snap
+
+# ============================================
+# Sensitive Data & Credentials
+# ============================================
+.env*
+!.env.example
+!.env.sample
+.credentials
+.ssh/
+private_key*
+*.pem
+
+# ============================================
+# Database & Cache Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+.mongo/
+mongo_data/
+.cache/
+.redis/
+redis-data/
+
+# ============================================
+# Compiled Files
+# ============================================
+*.tsbuildinfo
+*.tgz
+*.tar.gz
+
+# ============================================
+# Deployment & Docker
+# ============================================
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ============================================
+# Misc
+# ============================================
+.vscode-server/
+.history/
+.fusebox/
+.rts2_cache_cjs/
+.rts2_cache_esm/
+.rts2_cache_umd/
